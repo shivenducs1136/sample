@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | My eCommerce Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css">
+
+</head>
+
+<body class="bg-gray-100">
+
+    
+
+
+    <header class="bg-gray-900 text-white">
+    <!-- Set up navigation bar -->
+    <nav class="bg-gray-800 text-gray-100 py-4">
+        <div class="container mx-auto flex items-center justify-between">
+            <h1 class="text-xl font-bold"><a href="/">Company Name</a></h1>
+            <ul class="flex items-center">
+                <li class="mr-6"><a href="/">Home</a></li>
+                <li class="mr-6"><a href="/products">Products</a></li>
+                <li class="mr-6"><a href="/about">About Us</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+
+    <main class="container mx-auto py-8 px-6">
+        <h1 class="text-3xl font-bold mb-8">Contact Us</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div>
+                <p class="mb-4"><strong>Address:</strong> 123 Main St, Anytown USA 12345</p>
+                <p class="mb-4"><strong>Phone:</strong> 555-123-4567</p>
+                <p class="mb-4"><strong>Email:</strong> info@myecommercewebsite.com</p>
+                <p class="mb-4"><strong>Hours:</strong> Mon-Fri 9am-5pm EST</p>
+                <p><strong>Social Media:</strong></p>
+                <div class="flex items-center mt-2">
+                    <a href="#" class="text-gray-400 hover:text-gray-100 mx-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-gray-100 mx-2"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-gray-400 hover:text-gray-100 mx-2"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div>
+                <form action="#" method="POST" class="border border-gray-400 p-4">
+                    <h2 class="text-xl font-bold mb-4">Send Us a Message</h2>
+                    <div class="mb-4">
+                        <label for="name" class="block font-bold">Name:</label>
+                        <input type="text" id="name" name="name" class="border border-gray-400 px-2 py-1 w-full">
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block font-bold">Email:</label>
+                        <input type="email" id="email" name="email" class="border border-gray-400 px-2 py-1 w-full">
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block font-bold">Message:</label>
+                        <textarea id="message" name="message" rows="4" cols="50"
+                            class="border border-gray-400 px-2 py-1 w-full"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="bg-gray-900 text-white py-2 px-4 rounded hover:bg-gray-700">Send
+                            Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="bg-gray-900 text-white py-4 px-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 My eCommerce Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

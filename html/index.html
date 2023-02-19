@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eCommerce Landing Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.1.1/tailwind.min.css">
+  </head>
+  <body class="bg-gray-100">
+
+    <!-- Set up hero section -->
+    <section class="hero bg-gray-800 text-gray-100 py-20">
+      <div class="container mx-auto flex flex-col items-center justify-center">
+        <h1 class="text-4xl font-bold text-center mb-8">Purple Art World</h1>
+        <p class="text-lg text-center mb-8">Portraits, skteches, paintings creativity & much more </p>
+        <a href="#" class="bg-white text-gray-800 font-bold py-2 px-6 rounded-full hover:bg-gray-100 transition-colors duration-300">Order Now</a>
+      </div>
+    </section>
+
+    <!-- Set up featured products section -->
+    <section class="featured-products py-16">
+      <div class="container mx-auto">
+        <h2 class="text-3xl font-bold text-gray-800 text-center mb-12">Featured Works</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-12">
+          <div class="featured-product-card border border-gray-300 rounded-lg overflow-hidden hover:shadow-lg transition duration-300 ease-in-out">
+            <img src="../resources/paypaldp.jpg" alt="Product Image" class="w-full h-64 object-cover">
+            <div class="p-6">
+              <h3 class="font-bold text-gray-800 text-xl mb-2">Jaehoppe Latest sketches</h3>
+              <p class="text-gray-700 text-base mb-4">Create your own similar sketches and get it delivered at your doorstep.  Now!</p>
+              <div class="flex justify-between items-center">
+                <span class="font-bold text-gray-800 text-lg">$100.00</span>
+                <button class="bg-gray-800 text-white font-bold py-2 px-6 rounded-full hover:bg-gray-700 transition-colors duration-300">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <!-- Repeat the above product card for additional products -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Set up call to action section -->
+    <section class="cta py-20 bg-gray-800 text-gray-100">
+      <div class="container mx-auto flex flex-col items-center justify-center">
+        <h2 class="text-3xl font-bold text-center mb-8">Ready to Shop?</h2>
+        <p class="text-lg text-center mb-8">Sign up for our newsletter to get exclusive offers and updates on new arrivals</p>
+        <form class="flex flex-col md:flex-row items-center">
+          <input type="email" placeholder="Enter your email" class="bg-white focus:outline-none border border-gray-300 py-2 px-4 rounded-l-full md:rounded-l-none md:rounded-r-full mb-4 md:mb-0">
+                <button class="bg-white text-gray-800 font-bold py-2 px-6 rounded-r-full md:rounded-l-full hover:bg-gray-100 transition-colors duration-300">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<!-- Set up footer section -->
+<footer class="bg-gray-800 text-gray-100 py-10">
+  <div class="container mx-auto">
+    <div class="flex flex-col md:flex-row items-center justify-between">
+      <div class="mb-4 md:mb-0">
+        <h3 class="text-lg font-bold mb-2">@purpleartworld</h3>
+        <p class="text-gray-400 text-base">Nyay Vihar Coloney Sulem sarai, Prayagraj, 211015</p>
+      </div>
+      <div class="flex items-center">
+        <a href="aboutus.html" class="text-gray-400 hover:text-white transition-colors duration-300 mr-4">About Us</a>
+        <a href="contactus.html" class="text-gray-400 hover:text-white transition-colors duration-300 mr-4">Contact Us</a>
+        <a href="privacypolicy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+  </body>
+</html>
